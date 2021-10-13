@@ -1,6 +1,6 @@
 const express = require ('express');
 const app = express ();
-
+const port = process.env.PORT || 3000
 
 //creamos un servidor http apartir de la libreria de express
 
